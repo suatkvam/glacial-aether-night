@@ -1,0 +1,82 @@
+{
+  "name": "Glacial Aether Night",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e2a33",
+    "editor.foreground": "#cddfe4",
+    "editorCursor.foreground": "#88c0b0",
+    "editor.lineHighlightBackground": "#2f3e4620",
+    "editor.selectionBackground": "#88c0b030",
+    "editor.inactiveSelectionBackground": "#88c0b015",
+    "editorLineNumber.foreground": "#3b4d57",
+    "editorLineNumber.activeForeground": "#81a1c1",
+    "editorIndentGuide.background1": "#2f3e46",
+    "editorIndentGuide.activeBackground1": "#81a1c1",
+    "editorWhitespace.foreground": "#2f3e46",
+    "sideBar.background": "#1e2a33",
+    "sideBar.foreground": "#cddfe4",
+    "activityBar.background": "#1e2a33",
+    "statusBar.background": "#2a3b4c",           
+    "statusBar.foreground": "#d0e1e8",           
+    "statusBar.debuggingBackground": "#5a7080",  
+    "statusBar.debuggingForeground": "#d0e1e8",  
+    "statusBar.noFolderBackground": "#2e4458",   
+    "statusBar.noFolderForeground": "#d0e1e8",
+    "tab.activeBackground": "#1e2a33",
+    "tab.inactiveBackground": "#2f3e46",
+    "tab.activeForeground": "#cddfe4",
+    "tab.inactiveForeground": "#7fcdde"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#3b4d57",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": {
+        "foreground": "#b48ead"
+      }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#cddfe4"
+      }
+    },
+    {
+      "scope": ["constant", "entity.name.constant"],
+      "settings": {
+        "foreground": "#c27d7d"
+      }
+    },
+    {
+      "scope": ["string", "markup.quote"],
+      "settings": {
+        "foreground": "#9bd6c3"
+      }
+    },
+    {
+      "scope": ["support.function", "entity.name.function"],
+      "settings": {
+        "foreground": "#81a1c1"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.class"],
+      "settings": {
+        "foreground": "#cfcfa0"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#1e2a33"
+      }
+    }
+  ]
+}
+  

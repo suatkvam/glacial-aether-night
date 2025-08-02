@@ -1,0 +1,26 @@
+{
+  "name": "glacial-aether-night",
+  "displayName": "Glacial Aether Night",
+  "description": "A glacial-inspired dark theme with soft contrasts and arctic tones.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suatkvam/glacial-aether-night.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Glacial Aether Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sora-color-theme.json"
+      }
+    ]
+  }
+}
+
